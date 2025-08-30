@@ -48,43 +48,20 @@ const DoubanSelector: React.FC<DoubanSelectorProps> = ({
 
   // 电影的一级选择器选项
   const moviePrimaryOptions: SelectorOption[] = [
-    { 'label': '全部', 'value': '全部' },
-    { 'label': '热门电影', 'value': '热门' },
-    { 'label': '最新电影', 'value': '最新' },
-    { 'label': '豆瓣高分', 'value': '豆瓣高分' },
-    { 'label': '冷门佳片', 'value': '冷门佳片' },
-    { 'label': '动作', 'value': '动作' },
-    { 'label': '喜剧', 'value': '喜剧' },
-    { 'label': '爱情', 'value': '爱情' },
-    { 'label': '科幻', 'value': '科幻' },
-    { 'label': '犯罪', 'value': '犯罪' },
-    { 'label': '冒险', 'value': '冒险' },
-    { 'label': '恐怖', 'value': '恐怖' },
-    { 'label': '动画', 'value': '动画' },
-    { 'label': '战争', 'value': '战争' },
-    { 'label': '悬疑', 'value': '悬疑' },
-    { 'label': '灾难', 'value': '灾难' },
-    { 'label': '青春', 'value': '青春' }
-];
+    { label: '全部', value: '全部' },
+    { label: '热门电影', value: '热门' },
+    { label: '最新电影', value: '最新' },
+    { label: '豆瓣高分', value: '豆瓣高分' },
+    { label: '冷门佳片', value: '冷门佳片' },
+  ];
 
   // 电影的二级选择器选项
   const movieSecondaryOptions: SelectorOption[] = [
     { label: '全部', value: '全部' },
-    { label: '内地', value: '内地' },
-    { label: '中国香港', value: '中国香港' },
-    { label: '中国台湾', value: '中国台湾' },
-    { label: '美国', value: '美国' },
-    { label: '日本', value: '日本' },
+    { label: '华语', value: '华语' },
+    { label: '欧美', value: '欧美' },
     { label: '韩国', value: '韩国' },
-    { label: '泰国', value: '泰国' },
-    { label: '印度', value: '印度' },
-    { label: '英国', value: '英国' },
-    { label: '法国', value: '法国' },
-    { label: '德国', value: '德国' },
-    { label: '加拿大', value: '加拿大' },
-    { label: '西班牙', value: '西班牙' },
-    { label: '意大利', value: '意大利' },
-    { label: '澳大利亚', value: '澳大利亚' },
+    { label: '日本', value: '日本' },
   ];
 
   // 电视剧一级选择器选项
